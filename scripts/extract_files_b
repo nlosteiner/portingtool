@@ -2,6 +2,8 @@
 
 clear
 
+while :
+do
 
   clear
 
@@ -52,4 +54,4 @@ read enterLetter
 
   scripts/press_enter
 
-
+done
