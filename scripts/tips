@@ -39,7 +39,7 @@ do
 
   elif [ "$enterLetter" == "e" ]
   then
-    scripts/call_extract_kernel_and_modules
+    #placeholder
   elif [ "$enterLetter" == "x" ]
   then
     exit 0

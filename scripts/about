@@ -1,11 +1,13 @@
 #!/bin/bash
 
-clear
 
 while :
 do
 
-  clear
+
+clear
+
+
 echo "Team:"
 echo
 echo "-> XMasterNinni (Owner)"
@@ -20,28 +22,23 @@ echo "-> KonstaT for giving me some tips in porting"
 echo
 echo "x = Exit"
 
-read enterLetter
 
-  if [ "$enterLetter" == "a" ]
-  then
-    scripts/credits
-    
-    if [ "$?" == "1" ]
-    then
-      continue
-    fi
 
-  elif [ "$enterLetter" == "e" ]
-  then
-    scripts/call_extract_kernel_and_modules
-  elif [ "$enterLetter" == "x" ]
-  then
-    exit 0
-  else 
+
+while : enterLetter != "x"
+	do
+	
+	read enterLetter
+
+  	if [ "$enterLetter" == "x" ]
+ 	 then
+		exit 0
+  	else 
     echo "Invalid option"
-    continue
-  fi
-
-  scripts/press_enter
+ 	 fi
 
 done
+
+
+done
+
