@@ -7,10 +7,9 @@ do
 
   clear
 
-  echo "a = Help Method A"
-  echo "b = Help Method B"
-  echo
-  echo "x = Exit"
+
+  echo "placeholder"
+  echo "  x = Exit"
   echo 
   echo -n "// "
 
@@ -18,11 +17,17 @@ do
 
   if [ "$enterLetter" == "a" ]
   then
-   scripts/help_a
+ 
 
-  elif [ "$enterLetter" == "b" ]
+    
+    if [ "$?" == "1" ]
+    then
+      continue
+    fi
+
+  elif [ "$enterLetter" == "e" ]
   then
-    scripts/help_b
+    #placeholder
   elif [ "$enterLetter" == "x" ]
   then
     exit 0
