@@ -2,13 +2,13 @@
 
 clear
 
-while :
-do
 
   clear
 
 echo "-------------------Porting Process---------------------------"
 
+
+#system/framework
 
 
 #Finish
@@ -52,4 +52,4 @@ read enterLetter
 
   scripts/press_enter
 
-done
+
