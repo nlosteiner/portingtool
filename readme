@@ -1,5 +1,5 @@
 ====================================
-ZTE Porting Tools
+XMasterNinni's Portingtools
 ====================================
 
 
@@ -15,15 +15,15 @@ you put the ROM into the folder earlier, it will get DELETED!
 Install Instructions
 *****************************
 
-<<Which OS can run ZTE Porting Tools?>>
+<<Which OS can run the Porting Tools?>>
  
--> Linux (Ubuntu 11.10 recommended)
+-> Linux
 -> Windows with Cygwin or a Virtual Machine like Virtual Box
 
 
-*LINUX (Ubuntu 11.10)*
+*LINUX*
 
-1) Unpack the tar.gz file to your home folder.
+1) Unpack the tar.gz file to your home folder or clone it.
 2) There are different ways to start ZPT.
  2.1) Start ZPT by double-click on the "portingtool.sh" file.
  2.2) Start ZPT by cd to the "portingtool" directory. Then type ./portingtool.sh (recommended)
