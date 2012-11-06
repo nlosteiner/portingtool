@@ -11,7 +11,18 @@ echo "-------------------Porting Process---------------------------"
 
 
 #system/framework
+echo "Copying files...<framework>"
+sudo cp -r port_rom/system/framework base_rom/system
 
+#system/app
+echo "Copying files...<app>"
+cp -r port_rom/system/app base_rom/system
+
+#system/media
+echo "Copying files...<media>" 
+cp port_rom/system/media/*.zip base_rom/system/media
+echo "Copying files...<audio>" 
+cp -r port_rom/system/media/audio base_rom/system/media
 
 #Finish
 echo "Finished copying!"
